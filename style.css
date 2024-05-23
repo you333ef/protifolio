@@ -1,0 +1,301 @@
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+  *{
+    font-family: 'Roboto', sans-serif;
+    padding :0;
+    margin:0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    /* overflow: hidden; */
+  }
+  header{
+display: flex;
+background-color: black;
+opacity: inherit;
+padding:10px 200px;
+position:fixed;
+z-index: 999;
+align-items: center;
+justify-content: space-between;
+width:100%;
+
+  }
+.logo{
+    color:#6AA99D;
+    text-decoration: none;
+text-transform: uppercase;
+font-weight: 700;
+font-size: 28px;
+
+  }
+  .navegation a{
+text-decoration: none;
+align-items: center;
+font-weight: 600;
+font-size: 20px;
+color: #6AA99D;
+padding-left: 30px;
+/* margin-left: 50px; */
+
+  }
+  .navegation a:hover { 
+color:white ;
+/* text-decoration: none; */
+
+  }
+  section{
+    padding:100px 200px;
+  }
+  .main{
+/* text-align: center; */
+align-items: center;
+width: 100%;
+
+min-height: 100vh;
+display: flex;
+background: url(images/WhatsApp\ Image\ 2024-01-15\ at\ 03.43.49_702ea3ba\ -\ Copy\ -\ Copy.jpg) no-repeat;
+background-size:700px;
+background-position: top center;
+position: relative;
+margin-left: 100px;
+
+
+
+
+  }
+  .main h2{
+color:b;
+font-size: 29px;
+font-weight: 900;
+/* margin-top: 200px; */
+position:absolute;
+bottom: 200px;
+left:20px ;
+
+
+
+  }
+  .main h2 span{
+display: inline-block;
+margin-top: 10px;
+font-size: 40px;
+font-weight: 600;
+color: black;
+
+
+
+  }
+  .main h3{
+margin-top: 10px;
+margin-bottom: 10px;
+color:black ;
+font-size: 20px;
+font-weight: 800;
+letter-spacing: 1px;
+position:absolute;
+bottom: 150px;
+left: 10px;
+
+  }
+  .main .button-main{
+color:#fff;
+ background-color: #6AA99D;
+display: inline-block;
+font-size:20px ;
+font-weight: 600;
+border: none;
+padding: 15px 35px;
+text-decoration: none;
+border-radius: 15px;
+letter-spacing: 1px;
+margin-bottom: 40px;
+position: absolute;
+bottom: 55px;
+left: 30px;
+
+transition: 0.5s;
+  }
+  .main .button-main:hover{
+    background-color: black;
+    /* transform: scale(1.1); */
+  }
+  .icons-nav{
+font-size: 35px;
+color:#6AA99D;
+padding-right: 30px;
+position:absolute;
+top:500px;
+left: 50px;
+bottom: 30px;
+
+  }
+  .title{
+color:#6AA99D;
+font-size: 35px;
+font-weight: 800;
+display: flex;
+justify-content: center;
+margin-bottom: 30px;
+
+  }
+  .-content{
+    display: flex;
+    justify-content: center;
+    /* علشان يكونوا جمب بعض */
+ flex-direction: row;
+    flex-wrap: wrap;
+    
+    
+  }
+ 
+  .card{
+background-color: #fff;
+box-shadow: 0 -5px 25px rgba(1 1 1/15%);
+width: 250px;
+padding: 25px;
+margin: 15px;
+border-radius: 10px;
+transition: 0.5s;
+
+
+  }
+  .card:hover{
+    transform: scale(1.1);
+  }
+  .icon{
+    color:#6AA99D;
+    font-size: 128px;
+    text-align: center;
+  }
+  .script {
+text-align: center;
+  }
+  .script h3{
+font-size: 20px;
+font-weight: 800;
+color: #6AA99D;
+margin: 10px;
+
+  }
+  .script p{
+font-weight: 500;
+
+  }
+  .projects{
+    background-color:#0d0c0c ;
+    /* display: flex; */
+    
+  }
+  .projects.-content{
+    margin-top: 30px;
+  }
+  .project-card{
+min-height: 200px;
+width: 200px;
+border: 1px solid #fff;
+margin: 20px;
+transition:0.5s;
+overflow: hidden;
+border-radius: 10px;
+background-color: #fff;
+
+
+
+  }
+  .project-card:hover{
+transform: scale(1.1);
+
+  }
+  .project-card:hover .project-image{
+opacity: 0.9;
+
+  }
+  .project-image img{
+    width: 100%;
+
+  }
+  .project-infor{
+padding:15px;
+width: fit-content;
+
+  }
+  .paragroph-project {
+color: #030303;
+font-size: 12px;
+
+  }
+  .project-title{
+  
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-top: 10px;
+    transition: 0.5s;
+  }
+  .more-details{
+text-decoration: none;
+color:#250793;
+
+  }
+  .more-details:hover{
+background-color: #28d1d1;
+
+  }
+
+  .help-phone{
+display: flex;
+
+  }
+  .contact .icon{
+font-size: 72px;
+/* margin-right: 20px; */
+
+  }
+  .contact  .script h3{
+    color: #030303;
+   
+  }
+  .contact  .script p{
+    font-size: 19px;
+  }
+  .contact .title{
+    margin-top: 60px;
+    margin-right: 20px;
+  }
+  .help-phone{
+    padding: 20px;
+    margin-top: 40px;
+  }
+  .footer{
+    background-color: #030303;
+    color:#fff;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .footer p{
+    font-size:20px ;
+    font-weight:500 ;
+  }
+  .footer p span{
+color: #6AA99D;
+font-size: 15px;
+font-weight: 600;
+
+  }
+  .footer .icons-footer {
+font-size: 15px;
+
+  }
+
+
+
+  
+
+
+
+
+ 
+ 
+
+  
